@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1678237464074
+Build-Jdk: 1.8.0_151
+Built-By: clt0761
+Bundle-ManifestVersion: 2
+Bundle-Name: Camel Blueprint Route
+Bundle-SymbolicName: marshal-unmarshal
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.lakshan.tutes.marshal_unmarshal;uses:="com.lakshan.t
+ utes.marshal_unmarshal.entity.response,org.apache.camel,com.lakshan.tut
+ es.marshal_unmarshal.entity,org.apache.camel.builder,org.apache.camel.m
+ odel.rest,org.apache.camel.component.gson,org.apache.camel.spi,com.goog
+ le.gson,org.apache.camel.model";version="1.0.0.SNAPSHOT",com.lakshan.tu
+ tes.marshal_unmarshal.entity;version="1.0.0.SNAPSHOT",com.lakshan.tutes
+ .marshal_unmarshal.entity.response;version="1.0.0.SNAPSHOT"
+Import-Package: com.google.gson;version="[2.4,3)",org.apache.camel;versi
+ on="[2.16,3)",org.apache.camel.builder;version="[2.16,3)",org.apache.ca
+ mel.component.gson;version="[2.16,3)",org.apache.camel.model;version="[
+ 2.16,3)",org.apache.camel.model.rest;version="[2.16,3)",org.apache.came
+ l.spi;version="[2.16,3)",org.osgi.service.blueprint;version="[1.0.0,2.0
+ .0)"
+Tool: Bnd-1.50.0
